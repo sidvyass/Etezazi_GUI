@@ -161,6 +161,3 @@ certs_dict = {
         "PAINT LACQUER STICK CRAYON FILLER ENGRAVING STAMPED MARKING WHITE PER FED-STD-595 COLOR NO. 37778 PER TT-F-325TY1 GP110BA03",
     ]
 }
-
-for x, y in certs_dict.items():
-    print(x, y)

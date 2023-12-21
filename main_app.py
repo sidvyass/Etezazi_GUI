@@ -13,7 +13,6 @@ class MainApplication(tk.Tk):
         self.upper_frame = UpperFrame(self)
         self.upper_frame.pack(side="top", fill="both", expand=True)
 
-
 if __name__ == "__main__":
     app = MainApplication()
     app.mainloop()
