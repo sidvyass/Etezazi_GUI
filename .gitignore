@@ -4,3 +4,4 @@ __pycache__/
 .idea/
 .venv/
 try.py
+main_specs.py
