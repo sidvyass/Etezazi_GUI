@@ -107,7 +107,7 @@ class UpperFrame(tk.Frame):
         cursor = conn.cursor()
         search_string = f"SELECT * FROM item WHERE PartNumber = '{value_to_search}';"
         cursor.execute(search_string)
-        for row in cursor:
-            print(row)
+        for row in cursor:  # add pop up to display what is shown here + 
+            print(row)  # add logic to go forward or to break when data entry is not found
             
         conn.close()
