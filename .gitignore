@@ -5,3 +5,4 @@ __pycache__/
 .venv/
 try.py
 main_specs.py
+sql_conn.py
